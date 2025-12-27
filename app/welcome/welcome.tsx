@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Calculator, Users, Clock, AlertTriangle, PieChart, Save, Plus, Trash2, DollarSign, Info, ListTodo, Settings } from 'lucide-react';
 
-export default function Welcome() {
+export function Welcome() {
   // --- State Management ---
   
   // Mode Kalkulasi: 'manual' atau 'features'
